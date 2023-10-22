@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import {  useLocation } from "react-router-dom";
 import { useEffect } from "react";
 //importing react slick slider
 import "slick-carousel/slick/slick.css";
@@ -15,6 +15,7 @@ function App() {
 
   const directory = useLocation();
   useEffect(() => {
+    console.log('scrolling to top');
     animateScroll.scrollToTop({
       duration: 0,
     });
@@ -23,9 +24,7 @@ function App() {
   return (
     <div className="w-full h-full bg-zinc-900 font-nunito relative">
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+        <Home />
       <Footer />
     </div>
   )

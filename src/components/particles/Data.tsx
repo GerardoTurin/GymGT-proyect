@@ -1,27 +1,23 @@
 export const NavLinks = [
     {
         name: "Home",
-        url: "/"
+        url: "home"
     },
     {
         name: "About Us",
-        url: "/about"
+        url: "about"
     },
     {
-        name: "Schedule",
-        url: "/schedule"
+        name: "Menbership",
+        url: "menbership"
     },
     {
-        name: "Gallery",
-        url: "/gallery"
-    },
-    {
-        name: "News",
-        url: "/news"
+        name: "Clients",
+        url: "clients"
     },
     {
         name: "Contacts",
-        url: "/contact"
+        url: "contact"
     },
 ];
 
@@ -164,27 +160,23 @@ export const FooterTexts = {
         links: [
             {
                 name: "Home",
-                url: "/"
+                url: "home"
             },
             {
                 name: "About Us",
-                url: "/about"
+                url: "about"
             },
             {
-                name: "Schedule",
-                url: "/schedule"
+                name: "Menbership",
+                url: "menbership"
             },
             {
-                name: "Gallery",
-                url: "/gallery"
-            },
-            {
-                name: "News",
-                url: "/news"
+                name: "Clients",
+                url: "clients"
             },
             {
                 name: "Contacts",
-                url: "/contact"
+                url: "contact"
             },
         ]
     },

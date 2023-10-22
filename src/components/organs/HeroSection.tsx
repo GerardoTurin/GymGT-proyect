@@ -55,7 +55,7 @@ const HeroSection = () => {
         }
     }, [])
     return (
-        <section className="w-full h-auto bg-gradient-to-r from-red-500 to-amber-500 relative overflow-x-hidden">
+        <section className="w-full h-auto bg-gradient-to-r from-red-500 to-amber-500 relative overflow-x-hidden" id="home">
             <Slider ref={(slider) => (sliderRef.current = slider)} {...settings} className="h-full">
                 {
                     HeroTexts.map((hero, index) => (
