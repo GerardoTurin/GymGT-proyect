@@ -26,7 +26,7 @@ export const NavLinks = [
 export const HeroTexts = [
     {
         Heading: "Unleash Your Inner Strength!",
-        Paragraph: "Welcome to GymNex, where fitness meets fun! Get ready to unleash your inner strength and transform your life!",
+        Paragraph: "Welcome to GymGT, where fitness meets fun! Get ready to unleash your inner strength and transform your life!",
         Button: "Join Now!"
     },
     {
@@ -43,10 +43,10 @@ export const HeroTexts = [
 
 
 export const AboutTexts = {
-    firstText: "About GymNex",
+    firstText: "About GymGT",
     secondText: "Welcome",
-    caption: "Welcome to GymNex, where fitness meets community and transformation happens!",
-    paragraph1: "At GymNex, we are more than just a gym; we are a passionate and supportive fitness family dedicated to helping you achieve your health and wellness goals. Our mission is to create a positive and empowering environment that inspires you to challenge yourself, embrace a healthy lifestyle, and discover the best version of yourself.",
+    caption: "Welcome to GymGT, where fitness meets community and transformation happens!",
+    paragraph1: "At GymGT, we are more than just a gym; we are a passionate and supportive fitness family dedicated to helping you achieve your health and wellness goals. Our mission is to create a positive and empowering environment that inspires you to challenge yourself, embrace a healthy lifestyle, and discover the best version of yourself.",
 }
 
 export const OfferTexts = {

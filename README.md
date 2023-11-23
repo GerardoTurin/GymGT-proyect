@@ -22,4 +22,4 @@ We welcome contributions from the community to improve this project further. To 
 
 ## Demo
 
-[View Demo](https://gym-nex.vercel.app/)
+[View Demo](https://gymgt.netlify.app/)
