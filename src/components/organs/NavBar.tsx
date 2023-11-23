@@ -31,7 +31,7 @@ const NavBar = () => {
     return (
         <header className="w-full h-auto bg-transparent overflow-x-hidden fixed z-50 top-0 left-0">
             <nav className={`w-full lg:h-28 md:h-24 h-20 ${navBarColor ? "bg-zinc-900" : " bg-transparent"} lg:px-16 md:px-9 px-8 flex justify-between items-center`}>
-                <Link to={'home'} className="font-extrabold flex items-center relative md:text-2xl text-lg cursor-pointer">
+                <Link to={'home'} className="font-extrabold flex items-center relative md:text-2xl text-lg">
                     <Text as="span" className="text-amber-500 absolute -top-3 md:left-5 left-3">
                         <Barbell size={25} color="currentColor" weight="fill" />
                     </Text>
@@ -45,7 +45,7 @@ const NavBar = () => {
                                 <List className="w-full text-base" key={index}>
                                     <Link 
                                         to={navlink.url} 
-                                        className={`relative inline-block px-2 whitespace-nowrap text-white uppercase text-xs font-bold transition-all duration-200 hover:text-amber-500 before:w-0 before:h-0.5 before:bg-gradient-to-r from-red-500 to-amber-500 before:absolute before:-bottom-[2.93rem] before:left-0 before:transition-all before:duration-200 before:ease-in hover:before:left-0.5`}
+                                        className={`relative cursor-pointer inline-block px-2 whitespace-nowrap text-white uppercase text-xs font-bold transition-all duration-200 hover:text-amber-500 before:w-0 before:h-0.5 before:bg-gradient-to-r from-red-500 to-amber-500 before:absolute before:-bottom-[2.93rem] before:left-0 before:transition-all before:duration-200 before:ease-in hover:before:left-0.5`}
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
